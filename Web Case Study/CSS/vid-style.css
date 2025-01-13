@@ -1,0 +1,33 @@
+body {
+    background-image: url(src/MainBG.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#video-frame{
+    width: 1500px;
+    height: 650px;
+    left: -5%;
+    position: relative;
+    top: 3rem;
+  
+   
+} 
+
+#exit-btn {
+    width: 140px;
+    height: 140px;
+   position: relative;
+   top: 45REM;
+   left: 45%;
+   font-size: 30px;
+   background-color: gray;
+   cursor: pointer;
+   border-radius: 30px;
+}
+
+#exit-btn:hover {background-color: blueviolet}

@@ -1,0 +1,60 @@
+body
+{
+    background-image: url(src/bg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: maroon;
+    background-color: white;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: ridge black 10px;
+    box-shadow: 0 0 20px 10px black;
+}
+
+.container, .container1, .container2, .container3, .container4
+{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-size: 150px;
+    padding: 50px;
+}
+
+span
+{
+    border: solid gold 10px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+span:hover
+{
+    box-shadow: 0 0 20px 10px black;
+    border: solid black 10px;
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+}
+
+#exit-btn{
+    width: 140px;
+    height: 140px;
+   position: absolute;
+   top: 97REM;
+   left: 62%;
+   font-size: 30px;
+   background-color: gray;
+   cursor: pointer;
+   border-radius: 30px;
+}
+
+#exit-btn:hover {background-color: blueviolet}

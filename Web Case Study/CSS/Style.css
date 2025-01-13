@@ -1,0 +1,68 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-image: url(src/MainBG.jpg);
+}
+
+.title img{
+    height: 200px;
+    width: 700px;
+}
+
+.title{
+    padding-top: 4%;
+}
+
+h1{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}
+
+.buttons{
+    position: absolute;
+    display: grid;
+    top: 40%;
+    width: 60%;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto  ;
+    gap: 5px;
+    background-color: #2196F3;
+    padding: 5px;
+}
+
+.buttons div{
+    border-radius: 10px;
+    background-color: rgb(173, 216, 230);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.buttons button{
+    border-radius: 10px;
+    font-size: 90px;
+}
+
+.BtnStart{
+    position: absolute;
+    border-radius: 10px;
+    font-size: 80px;
+
+    top: 26%;
+    left: 41%;
+}
+
+.BtnStart1{
+    position: absolute;
+    border-radius: 10px;
+    font-size: 80px;
+
+    top: 26%;
+    left: 51%;
+}
+
+button:hover {background-color: blueviolet}
