@@ -1,0 +1,136 @@
+body{
+    background: black;
+}
+
+.container{
+    background-color:rgb(22, 22, 22);
+    margin: auto;
+    width: 1100px;
+    height: 1240px;
+    padding: 10px;
+}
+
+.title{
+    background-color: darkorange;
+    padding-left: 90px;
+}
+
+.Main_image{
+    float: left;
+    padding-right: 20px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.vid_style ul{
+padding: 0px;
+}
+
+.vid_style ul li {
+    float: left;
+    margin: 1px;
+    position: relative;
+    background-color: red;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.vid_style ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.vid_style ul li ul {
+    position:absolute;
+    visibility: hidden;
+}
+
+.vid_style ul li:hover ul {
+    visibility: visible;
+} 
+
+.vid_style ul il a:hover {
+    color: blue;
+}
+
+.vid_style ul li:hover {
+    background-color: aqua;
+}
+
+.Character_list{
+    background-color:darkolivegreen;
+    width: 42.5%;
+    float: right;
+    border-radius: 10px;
+}
+
+.Characters{
+    color: deeppink;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 20%;
+    padding-left: 5%;
+}
+
+.img1{
+    margin-top: 2%;
+    border-radius: 5%;
+    width: 100%;
+    height: 210px;
+}
+
+li{
+    margin-left:  5%;
+    color: white;
+    list-style-type:disc;
+}
+
+FONT-COLOR{
+    color: white;
+}
+
+p{
+    color: green;
+    text-align: justify;
+}
+
+table{
+    width: 50%;
+    letter-spacing: 1px;
+    float: left;
+}
+
+td{
+    background-color: rgb(69, 219, 102);
+    color: rgb(21, 0, 209);
+    text-align: center;
+    font-size: larger;
+}
+
+th{
+    border: 1px solid rgb(69, 219, 102);
+    padding: 5px;
+}
+
+tr{
+    text-align: right;
+}
+
+h3{
+    text-align: left;
+    color: darkorange;
+}
+
+h1{
+    color:black;
+    font-size: 30px;
+    text-align: left;
+}
